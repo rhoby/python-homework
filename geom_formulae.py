@@ -3,16 +3,20 @@ __author__ = 'hoby'
 from numpy import *
 
 ##########VOLUME OF THE RECTANGLE######################
-def rectangle_area(lenght, width):
+
+
+def rectangle_area(length, width):
      """
-     calculate the area of a rectangle from lenght and width.
-     :param length:the lenght side of the rectangle
+     calculate the area of a rectangle from length and width.
+     :param length:the length side of the rectangle
      :param width: the width side of the rectangle
      """
-     return lenght*width
+     return length*width
 print("the area of the rectangle is", rectangle_area(3,4))
 
 ##########AREA OF THE CIRCLE##############################
+
+
 def circle_area(radius):
     """
     calculate the area of a circle by his radius
@@ -23,6 +27,8 @@ def circle_area(radius):
 print("the area of the circle is", circle_area(4))
 
 ############VOLUME OF THE CUBE###########################
+
+
 def volume_cube(side):
     """
     calculate the volume of the cube
@@ -30,9 +36,11 @@ def volume_cube(side):
     :return: the volume of the cube
     """
     return side**3
-print("the volume of the cube is",volume_cube(4))
+print("the volume of the cube is", volume_cube(4))
 
 #############AREA OF THE SPHERE#########################
+
+
 def sphere_area(radius):
     """
     calculate the area of the sphere
@@ -43,6 +51,8 @@ def sphere_area(radius):
 print("the area of the Sphere is", sphere_area(4))
 
 ###############AREA OF THE DIAMOND#######################
+
+
 def diamond_area(diagonal1, diagonal2):
     """
     calculate the area of the diamond
@@ -53,7 +63,9 @@ def diamond_area(diagonal1, diagonal2):
 print("the area of the diamond is", diamond_area(5,3))
 
 ################AREA OF THE TRIANGLE###########################
-def triangle_area(basis,height):
+
+
+def triangle_area(basis, height):
     """
     calculate the area of the triangle by the basis and the height
     :param basis: the basis of the triangle
@@ -64,6 +76,8 @@ def triangle_area(basis,height):
 print("the area of the triangle is", triangle_area(5,3))
 
 ###################AREA OF THE TRAPEZIUM##########################
+
+
 def trapezium_area(basis1, basis2, height):
     """
     calculate the area of the trapezium by basis and height
@@ -73,6 +87,8 @@ def trapezium_area(basis1, basis2, height):
 print("the area of the trapezium is", trapezium_area(3,4,5))
 
 #######################VOLUME OF THE CYLINDER#############################
+
+
 def cylinder_volume(r, h):
     """
 
@@ -84,6 +100,8 @@ def cylinder_volume(r, h):
 print("the volume of the cylinder is", cylinder_volume(5,6))
 
 ###########################AREA OF THE PENTAGON###########################
+
+
 def Pentagon_area(s,a):
     """
     :param s: the side of the regular pentagon
@@ -91,9 +109,11 @@ def Pentagon_area(s,a):
     :return: the area of the pentagon
     """
     return 5*(s*a)/2
-print("the area of the pengagone is", Pentagon_area(5,4))
+print("the area of the pentagon is", Pentagon_area(5, 4))
 
 ###########################VOLUME OF THE CONE#####################################
+
+
 def cone_volume(radius, height):
     """
 
@@ -102,7 +122,7 @@ def cone_volume(radius, height):
     :return: the volume of the cone
     """
     return pi*radius**2*height/3
-print("the volume of the cone is", cone_volume(3,4))
+print("the volume of the cone is", cone_volume(3, 4))
 
 
 
