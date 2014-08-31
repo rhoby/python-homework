@@ -2,8 +2,8 @@ __author__ = 'hoby'
 
 from numpy import *
 
-##########VOLUME OF THYE RECTANGLE######################
-def rectangle_area(lenght,width):
+##########VOLUME OF THE RECTANGLE######################
+def rectangle_area(lenght, width):
      """
      calculate the area of a rectangle from lenght and width.
      :param length:the lenght side of the rectangle
@@ -16,11 +16,11 @@ print("the area of the rectangle is", rectangle_area(3,4))
 def circle_area(radius):
     """
     calculate the area of a circle by his radius
-    :param radius of the circle
+    :param radius: of the circle
     :return: the area of circle
     """
     return pi*radius**2
-print("the area of the cicle is", circle_area(4))
+print("the area of the circle is", circle_area(4))
 
 ############VOLUME OF THE CUBE###########################
 def volume_cube(side):
@@ -43,14 +43,14 @@ def sphere_area(radius):
 print("the area of the Sphere is", sphere_area(4))
 
 ###############AREA OF THE DIAMOND#######################
-def diamond_area(diagonal1,diagonal2):
+def diamond_area(diagonal1, diagonal2):
     """
     calculate the area of the diamond
     :param diagonal1 and diangonal2 are the diagonals of the diamond
     :return:the area of the diamond
     """
     return (diagonal1*diagonal2)/2
-print("thhe area of the diamond is", diamond_area(5,3))
+print("the area of the diamond is", diamond_area(5,3))
 
 ################AREA OF THE TRIANGLE###########################
 def triangle_area(basis,height):
@@ -64,16 +64,16 @@ def triangle_area(basis,height):
 print("the area of the triangle is", triangle_area(5,3))
 
 ###################AREA OF THE TRAPEZIUM##########################
-def trapezium_area(basis1,basis2,height):
+def trapezium_area(basis1, basis2, height):
     """
     calculate the area of the trapezium by basis and height
     :return: the area of the trapezium
     """
     return (basis1+basis2)*height*0.5
-print("the area of the trapezium is",trapezium_area(3,4,5))
+print("the area of the trapezium is", trapezium_area(3,4,5))
 
 #######################VOLUME OF THE CYLINDER#############################
-def cylinder_volume(r,h):
+def cylinder_volume(r, h):
     """
 
     :param r: radius of the basis of the cylinder
